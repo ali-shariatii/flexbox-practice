@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/wow.png) bottom center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.centered {
+    background: tomato;
+    padding: 0 4rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        font-size: 1.5rem;
+    } 
+
+    .centered {
+        background: rgb(71, 255, 255);
+        padding: 0 6.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+        font-size: 1.9rem;
+    } 
+
+    .centered {
+        background: rgb(71, 255, 126);
+        padding: 0 6.5rem;
+    } 
+}
