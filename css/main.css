@@ -31,3 +31,17 @@ body, header, footer, main {
 footer {
     border-top: 2px grey solid;
 }
+
+@media only screen and (max-width: 1200px) {
+    #flex-container  {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #flex-item-2 {
+        border-bottom: 2px grey solid;
+        border-top: 2px grey solid;
+        border-right: transparent;
+        border-left: transparent;
+    }
+}
